@@ -1,0 +1,131 @@
+.ui{
+    width: 500px;
+    height: 600px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: wheat;
+}
+
+.boardCont{
+    margin: auto;
+    position: relative;
+    top: 40px;
+    width: 460px;
+    height: 460px;
+    border-radius: 30px;
+    background-color: salmon;
+}
+
+.board{
+    margin: auto;
+    position: relative;
+    top: 10px;
+    width: 440px;
+    height: 440px;
+
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.board div{
+    position: relative;
+    left: 0px;
+    top: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: blue;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 99px;
+    height: 99px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#score{
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    right: 140px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: salmon;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#scoreTitle{
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    right: 130px;
+    text-align: center;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#topScore{
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: salmon;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+
+#topscoreTitle{
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    right: -150px;;
+    text-align: right;
+    width: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+#topCont{
+    margin: auto;
+    position: relative;
+    width: 500px;
+    text-align: center;
+}
+
+#newButton{
+    margin: auto;
+    position: relative;
+    right: 150px;
+    border-radius: 10px;
+    border-style: hidden;
+    background-color:salmon;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+    width: 150px;
+    height: 50px;
+}
